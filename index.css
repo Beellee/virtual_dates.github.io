@@ -1,0 +1,37 @@
+:root{
+    z-index: 1;
+    background-color: #f3f3f3;
+    
+    background-image:  linear-gradient(#ff0c0c 3.4000000000000004px, transparent 3.4000000000000004px), linear-gradient(to right, #ff0c0c 3.4000000000000004px, #f3f3f3 3.4000000000000004px);
+    background-size: 68px 68px;
+}
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/*
+:root {
+    
+    background-image:
+      linear-gradient(90deg, rgba(254, 136, 169, 0.3) 50%, transparent 50%),
+      linear-gradient(rgba(245, 254, 136, .3) 50%, transparent 50%);
+    background-size: 40px 40px;
+}
+*/
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamesFrame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.gamesFrame img{
+    cursor: pointer;
+    width: 20vw;
+    height: auto;
+}
