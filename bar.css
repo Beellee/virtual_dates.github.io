@@ -1,0 +1,82 @@
+.progress-container {
+    width: 100%;
+    background-color: #f568e500;
+}
+  
+.progress-bar {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 85vw;
+    height: 35px;
+    background-color: rgb(247, 247, 247);
+}
+  
+.bar {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    background-color: rgb(230, 159, 250);
+    width: 0%;
+}
+  
+input[type="range"] {
+    width: 200px;
+    margin-top: 20px;
+}
+  
+
+.percentage-label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+/*style*/
+body{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(243,236,204,1) 0%, rgba(255,215,250,1) 46%, rgba(246,211,255,1) 76%);
+}
+img{
+    width: 100px;
+    height: auto;
+}
+
+/*positioning*/
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.mod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.progress-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/*confetty*/
+
+
+  
+
+  
+
+  
